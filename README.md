@@ -1,16 +1,15 @@
-# sample_test
+# Calculator Simple
 
-A new Flutter project.
+This is a sample calculator app that calculates the sum of number between two integers excluding the borders.
 
-## Getting Started
+# State management
 
-This project is a starting point for a Flutter application.
+I have used the block state management, and a calculator cubit to calculate the sum.
 
-A few resources to get you started if this is your first Flutter project:
+# Input filtering
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+To filter the entered textes are only numbers I have used FilteringTextInputFormatter with regex, and implemented length limit to controll the size of entered texts and also I have implemented a logic on the onChanged function of the text fields to check if the entered values can be parsed to integer.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Testing
+
+I have used flutter_test and bloc_test libraries to test the CalculatorCubit.
