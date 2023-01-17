@@ -9,6 +9,7 @@ class SampleTestApp extends StatelessWidget {
     return BlocProvider(
         create: (context) => CalculatorCubit(),
         child: const MaterialApp(
+          debugShowCheckedModeBanner: false,
           home: MainPage(),
         ));
   }
