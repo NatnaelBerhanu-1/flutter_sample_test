@@ -1,4 +1,4 @@
-# Calculator Simple
+# Simple Calculator
 
 This is a sample calculator app that calculates the sum of number between two integers excluding the borders.
 
