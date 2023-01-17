@@ -25,6 +25,7 @@ class ResultPage extends StatelessWidget {
                       child: BlocBuilder<CalculatorCubit, double>(
                         builder: (context, state) => Text(
                           "Sum: $state",
+                          textAlign: TextAlign.center,
                           style: TextStyle(
                               color: Colors.white,
                               fontSize: 24,
